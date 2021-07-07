@@ -1,0 +1,39 @@
+$(document).ready(function() {
+    $(window).resize(function() {
+		if($(window).width() > 1028) {
+			$('#navinput').attr('checked',false);
+		}
+	});
+	/* Lightbox for category view */
+	$("a[data-fancybox='fancybox']").fancybox({
+      	type: 'image',
+		href: $(this).attr('href'),
+      	buttons: [
+			'slideShow',
+			'fullScreen',
+			'thumbs',
+			'share',
+			'zoom',
+			'close'
+		],
+  		caption : function( instance, item ) {
+    		var caption = $(this).data('caption');
+    		return ( caption.length ? caption: '' );
+  		},
+  		beforeShow: function (instance, item) {
+  		}
+	});
+	$("a[data-fancybox='fancybox-category']").fancybox({
+		buttons: [
+			'fullScreen',
+			'close'
+		],
+  		caption : function( instance, item ) {
+    		var caption = $(this).data('caption');
+    		return ( caption.length ? caption: '' );
+  		},
+		beforeShow: function(instance, item) {
+			$(item.src).addClass('focused');
+		}
+	});
+})

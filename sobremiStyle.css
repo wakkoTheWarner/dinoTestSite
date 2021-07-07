@@ -1,0 +1,148 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: underdog;
+	src: url("fonts/Underdog-Regular.ttf");
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.LogoA {
+	margin: 0px 0px -60px 0px;
+	font-family: underdog;
+}
+
+.LogoB {
+	margin: 0px 0px 30px 0px;
+	padding-left: 150px;
+	font-family: underdog;
+}
+
+#navbar {
+	background-color: darkgreen;
+	overflow: hidden;
+}
+#navbar a {
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+#navbar a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+#header {
+	background-image:url("Images/SobreMi/neanderthal_banner.png");
+	overflow: auto;
+}
+
+#header h1 {
+	font-size: 30pt;
+	margin-left: 150px;
+	margin-top: 45px;
+}
+
+#header img {
+	float: left;
+	width: 90px;
+	margin-top: 5px;
+	margin-left: 50px;
+}
+
+#footer {
+	overflow: hidden;
+	text-align: center;
+	padding: 50px;
+	background-color: darkgreen;
+	color: white;
+	clear: both;
+}
+#footer p a {
+	text-decoration: none;
+	color: white;
+}
+.refrences {
+	border-top: thick solid;
+	padding: 20px 30px;
+}
+.refrences ul {
+	text-align: justify;
+	margin: 40px 0px 0px 5%
+}
+
+/*---Aqui empieza Paginal Principal---*/
+
+#body {
+	background-color: grey;
+	clear: both;
+	overflow: hidden;
+}
+.innerColor {
+	background-color: white;
+	margin: 0px 30px 0px;
+	box-shadow: 0px 0px 50px 5px black;
+}
+
+.innerColor h1 {
+	text-align: center;
+	padding: 120px;
+	color: white;
+}
+.innerColor img {
+	display: block;
+	border: solid thick black;
+	float: left;
+	margin: 20px;
+}
+.images {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+.description {
+	padding: 20px 60px 20px 60px;
+	clear: both;
+	overflow: hidden;
+}
+.innerColor p {
+	padding-bottom: 20px;
+	text-align: justify;
+	text-indent: 50px;
+}
+.backgroundtitle {
+	background-image: url("Images/SobreMi/helloworldbgi.png");
+}
+.videos {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.videos video {
+	width: 49%;
+}
+.image1 {
+	width: 400px;
+}
+.image2 {
+	width: 300px;
+}
+/*--Aqui Termina Pagina Principal--*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--Aqui Empieza Pagina 2--*/

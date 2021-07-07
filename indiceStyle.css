@@ -1,0 +1,232 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: underdog;
+	src: url("fonts/Underdog-Regular.ttf");
+}
+
+body {
+	font-family: arial, sans-serif;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.LogoA {
+	margin: 0px 0px -60px 0px;
+	font-family: underdog;
+}
+
+.LogoB {
+	margin: 0px 0px 30px 0px;
+	padding-left: 150px;
+	font-family: underdog;
+}
+
+#navbar {
+	background-color: darkgreen;
+	overflow: hidden;
+}
+#navbar a {
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+#navbar a:hover {
+	background-color: lightgreen;
+	color: black;
+}
+#header {
+	background-image:url("Images/Jurassic Forest scene 74 dpi.png");
+	overflow: auto;
+	margin: 0px 0px 0px 50px;
+}
+
+#header h1 {
+	font-size: 30pt;
+	margin-left: 100px;
+	margin-top: 45px;
+}
+
+#header img {
+	float: left;
+	width: 90px;
+	margin-top: 5px;
+}
+
+#footer {
+	overflow: hidden;
+	text-align: center;
+	padding: 50px;
+	background-color: darkgreen;
+	color: white;
+	clear: both;
+}
+#footer p a {
+	text-decoration: none;
+	color: white;
+}
+.refrences {
+	border-top: thick solid;
+	padding: 20px 30px;
+}
+.refrences ul {
+	text-align: justify;
+	margin: 40px 0px 0px 5%
+}
+
+/*---Aqui empieza Paginal Principal---*/
+
+#body {
+	background-color: grey;
+	clear: both;
+	overflow: hidden;
+}
+.innerColor {
+	background-color: white;
+	margin: 0px 30px 0px;
+	box-shadow: 0px 0px 50px 5px black;
+}
+
+.preCambricoA {
+	padding: 0px 50px;
+}
+.preCambricoA::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.backgroundTitle {
+	padding: 120px;
+	text-align: center;
+	background-image: url("Images/bgPrecambrian.png");
+	color: white;
+	margin-bottom: 60px;
+	text-shadow: 0px 0px 10px black;
+}
+
+.backgroundTitleH3 {
+	position: relative;
+	color: #DFDFDF;
+	bottom: 160px;
+	text-align: center;
+	text-shadow: 0px 0px 10px black;
+}
+
+.preCambricoA p {
+	text-align: justify;
+	margin-left: 450px;
+	padding-top: 5px;
+}
+.preCambricoA img {
+	float: left;
+	padding-bottom: 30px;
+}
+.preCambricoIMGCREDIT {
+	position: relative;
+	left: 60px;
+	bottom: 54px;
+	color: white;
+	margin-right: 200px;
+}
+.theiaA {
+	padding: 30px 50px;
+	border-top: thin solid;
+}
+.theiaA::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.theiaA h2 {
+	padding: 20px;
+}
+.theiaA img {
+	width: 40%;
+	float: left;
+	padding-bottom: 30px;
+}
+.theiaCREDIT {
+	position: relative;
+	bottom: 80px;
+	left: 55px;
+	color: white;
+	margin-right: 200px;
+}
+.theiaA p {
+	text-align: justify;
+	margin-left: 44%;
+	padding-top: 120px;
+}
+.theoriaTheiaA {
+	padding: 30px 50px;
+	border-top: thin solid;
+}
+.theoriaTheiaA::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+.theoriaTheiaA h2 {
+	padding: 20px;
+}
+.theoriaTheiaA img {
+	width: 50%;
+	float: left;
+}
+.teoriaCREDIT {
+	position: relative;
+	bottom: 50px;
+	left: 60px;
+	color: white;
+	text-shadow: 0px 0px 8px black;
+	margin-right: 200px;
+}
+.theoriaTheiaA p {
+	text-align: justify;
+	margin: 40px 0px 0px 54%
+}
+.theiaVideos {
+	padding: 20px 50px;
+}
+.theiaVideos::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.theiaVideos video {
+	float: left;
+	padding: 5.9px;
+	padding-bottom: 30px;
+	width: 49%
+}
+.up {
+	overflow: hidden;
+	background-color: darkgrey;
+	text-align: center;
+}
+.up a {
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	width: 100%;
+	text-shadow: 0 0 10px black;
+}
+.up a:hover {
+	background-color: grey;
+}
+/*--Aqui Termina Pagina Principal--*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*--Aqui Empieza Pagina 2--*/
